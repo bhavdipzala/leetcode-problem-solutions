@@ -1,0 +1,16 @@
+{
+  "submissionId": "2152477347",
+  "problemNumber": 1,
+  "title": "Two Sum",
+  "titleSlug": "two-sum",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Hash Table"
+  ],
+  "url": "https://leetcode.com/problems/two-sum/",
+  "language": "java",
+  "javaFileName": "two-sum.java",
+  "firstSyncedAt": "2026-09-24T23:13:33.231Z",
+  "lastSyncedAt": "2026-09-24T23:13:33.231Z"
+}
