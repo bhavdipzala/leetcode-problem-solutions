@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-4-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-5-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short
@@ -16,10 +16,10 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:PROGRESS -->
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 4 | ████████████████████ |
-| Medium | 0 | ░░░░░░░░░░░░░░░░░░░░ |
+| Easy | 4 | ████████████████░░░░ |
+| Medium | 1 | ████░░░░░░░░░░░░░░░░ |
 | Hard | 0 | ░░░░░░░░░░░░░░░░░░░░ |
-| **Total** | **4** | |
+| **Total** | **5** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -38,6 +38,7 @@ accepted and passed LeetCode's own test cases.
 
 |   | LeetCode# | Title | Solution | Topics |
 |--:|----------:|-------|----------|--------|
+| 1 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [View Solution](./solutions/medium/LC-0002-add-two-numbers/) | Linked List, Math, Recursion |
 
 ### Hard
 
@@ -51,9 +52,11 @@ accepted and passed LeetCode's own test cases.
 | Topic | Problems |
 |-------|--------:|
 | Array | 3 |
+| Math | 2 |
 | Two Pointers | 2 |
 | Hash Table | 1 |
-| Math | 1 |
+| Linked List | 1 |
+| Recursion | 1 |
 <!-- AUTO-GENERATED:END:TOPICS -->
 
 ## Repository Structure

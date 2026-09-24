@@ -1,0 +1,17 @@
+{
+  "submissionId": "2152480406",
+  "problemNumber": 2,
+  "title": "Add Two Numbers",
+  "titleSlug": "add-two-numbers",
+  "difficulty": "Medium",
+  "topics": [
+    "Linked List",
+    "Math",
+    "Recursion"
+  ],
+  "url": "https://leetcode.com/problems/add-two-numbers/",
+  "language": "java",
+  "javaFileName": "add-two-numbers.java",
+  "firstSyncedAt": "2026-09-24T23:25:41.083Z",
+  "lastSyncedAt": "2026-09-24T23:25:41.083Z"
+}
