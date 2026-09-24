@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-2-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short
@@ -16,10 +16,10 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:PROGRESS -->
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 1 | ████████████████████ |
+| Easy | 2 | ████████████████████ |
 | Medium | 0 | ░░░░░░░░░░░░░░░░░░░░ |
 | Hard | 0 | ░░░░░░░░░░░░░░░░░░░░ |
-| **Total** | **1** | |
+| **Total** | **2** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -29,7 +29,8 @@ accepted and passed LeetCode's own test cases.
 
 |   | LeetCode# | Title | Solution | Topics |
 |--:|----------:|-------|----------|--------|
-| 1 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [View Solution](./solutions/easy/LC-0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers |
+| 1 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [View Solution](./solutions/easy/LC-0027-remove-element/) | Array, Two Pointers |
+| 2 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [View Solution](./solutions/easy/LC-0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers |
 
 ### Medium
 
@@ -47,8 +48,8 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:TOPICS -->
 | Topic | Problems |
 |-------|--------:|
-| Array | 1 |
-| Two Pointers | 1 |
+| Array | 2 |
+| Two Pointers | 2 |
 <!-- AUTO-GENERATED:END:TOPICS -->
 
 ## Repository Structure
