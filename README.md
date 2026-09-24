@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-3-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-4-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short
@@ -16,10 +16,10 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:PROGRESS -->
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 3 | ████████████████████ |
+| Easy | 4 | ████████████████████ |
 | Medium | 0 | ░░░░░░░░░░░░░░░░░░░░ |
 | Hard | 0 | ░░░░░░░░░░░░░░░░░░░░ |
-| **Total** | **3** | |
+| **Total** | **4** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -29,9 +29,10 @@ accepted and passed LeetCode's own test cases.
 
 |   | LeetCode# | Title | Solution | Topics |
 |--:|----------:|-------|----------|--------|
-| 1 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [View Solution](./solutions/easy/LC-0001-two-sum/) | Array, Hash Table |
-| 2 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [View Solution](./solutions/easy/LC-0027-remove-element/) | Array, Two Pointers |
-| 3 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [View Solution](./solutions/easy/LC-0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers |
+| 1 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [View Solution](./solutions/easy/LC-0009-palindrome-number/) | Math |
+| 2 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [View Solution](./solutions/easy/LC-0001-two-sum/) | Array, Hash Table |
+| 3 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [View Solution](./solutions/easy/LC-0027-remove-element/) | Array, Two Pointers |
+| 4 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [View Solution](./solutions/easy/LC-0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers |
 
 ### Medium
 
@@ -52,6 +53,7 @@ accepted and passed LeetCode's own test cases.
 | Array | 3 |
 | Two Pointers | 2 |
 | Hash Table | 1 |
+| Math | 1 |
 <!-- AUTO-GENERATED:END:TOPICS -->
 
 ## Repository Structure

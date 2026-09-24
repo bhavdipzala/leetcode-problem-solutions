@@ -1,0 +1,15 @@
+{
+  "submissionId": "2152478315",
+  "problemNumber": 9,
+  "title": "Palindrome Number",
+  "titleSlug": "palindrome-number",
+  "difficulty": "Easy",
+  "topics": [
+    "Math"
+  ],
+  "url": "https://leetcode.com/problems/palindrome-number/",
+  "language": "java",
+  "javaFileName": "palindrome-number.java",
+  "firstSyncedAt": "2026-09-24T23:17:09.090Z",
+  "lastSyncedAt": "2026-09-24T23:17:09.090Z"
+}
