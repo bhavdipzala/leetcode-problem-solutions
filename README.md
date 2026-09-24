@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-0-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short
@@ -16,10 +16,10 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:PROGRESS -->
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 0 | ░░░░░░░░░░░░░░░░░░░░ |
+| Easy | 1 | ████████████████████ |
 | Medium | 0 | ░░░░░░░░░░░░░░░░░░░░ |
 | Hard | 0 | ░░░░░░░░░░░░░░░░░░░░ |
-| **Total** | **0** | |
+| **Total** | **1** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -29,6 +29,7 @@ accepted and passed LeetCode's own test cases.
 
 |   | LeetCode# | Title | Solution | Topics |
 |--:|----------:|-------|----------|--------|
+| 1 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [View Solution](./solutions/easy/LC-0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers |
 
 ### Medium
 
@@ -44,7 +45,10 @@ accepted and passed LeetCode's own test cases.
 ## Topics Breakdown
 
 <!-- AUTO-GENERATED:START:TOPICS -->
-_No topics yet — they show up here once you solve your first problem._
+| Topic | Problems |
+|-------|--------:|
+| Array | 1 |
+| Two Pointers | 1 |
 <!-- AUTO-GENERATED:END:TOPICS -->
 
 ## Repository Structure

@@ -1,0 +1,16 @@
+{
+  "submissionId": "2152468057",
+  "problemNumber": 26,
+  "title": "Remove Duplicates from Sorted Array",
+  "titleSlug": "remove-duplicates-from-sorted-array",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Two Pointers"
+  ],
+  "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+  "language": "java",
+  "javaFileName": "remove-duplicates-from-sorted-array.java",
+  "firstSyncedAt": "2026-09-24T22:37:00.922Z",
+  "lastSyncedAt": "2026-09-24T22:37:00.922Z"
+}
