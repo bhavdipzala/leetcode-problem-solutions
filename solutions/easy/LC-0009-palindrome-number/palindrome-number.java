@@ -1,5 +1,5 @@
 /**
-Approach: this is the approah
+Approach: this is the approah 2
 Time: O(n)
 Space: O(N)
  */
