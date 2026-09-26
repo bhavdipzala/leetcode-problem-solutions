@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-9-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-10-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short
@@ -16,10 +16,10 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:PROGRESS -->
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 5 | ███████████░░░░░░░░░ |
-| Medium | 4 | █████████░░░░░░░░░░░ |
+| Easy | 5 | ██████████░░░░░░░░░░ |
+| Medium | 5 | ██████████░░░░░░░░░░ |
 | Hard | 0 | ░░░░░░░░░░░░░░░░░░░░ |
-| **Total** | **9** | |
+| **Total** | **10** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -39,10 +39,11 @@ accepted and passed LeetCode's own test cases.
 
 |   | LeetCode# | Title | Solution | Topics |
 |--:|----------:|-------|----------|--------|
-| 1 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [View Solution](./solutions/medium/LC-0008-string-to-integer-atoi/) | String |
-| 2 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [View Solution](./solutions/medium/LC-0003-longest-substring-without-repeating-characters/) | Hash Table, String, Sliding Window |
-| 3 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [View Solution](./solutions/medium/LC-0015-3sum/) | Array, Two Pointers, Sorting |
-| 4 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [View Solution](./solutions/medium/LC-0002-add-two-numbers/) | Linked List, Math, Recursion |
+| 1 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [View Solution](./solutions/medium/LC-0016-3sum-closest/) | Array, Two Pointers, Sorting |
+| 2 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [View Solution](./solutions/medium/LC-0008-string-to-integer-atoi/) | String |
+| 3 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [View Solution](./solutions/medium/LC-0003-longest-substring-without-repeating-characters/) | Hash Table, String, Sliding Window |
+| 4 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [View Solution](./solutions/medium/LC-0015-3sum/) | Array, Two Pointers, Sorting |
+| 5 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [View Solution](./solutions/medium/LC-0002-add-two-numbers/) | Linked List, Math, Recursion |
 
 ### Hard
 
@@ -55,15 +56,15 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:TOPICS -->
 | Topic | Problems |
 |-------|--------:|
-| Array | 5 |
+| Array | 6 |
+| Two Pointers | 4 |
 | String | 3 |
-| Two Pointers | 3 |
 | Hash Table | 2 |
 | Math | 2 |
+| Sorting | 2 |
 | Linked List | 1 |
 | Recursion | 1 |
 | Sliding Window | 1 |
-| Sorting | 1 |
 | Trie | 1 |
 <!-- AUTO-GENERATED:END:TOPICS -->
 

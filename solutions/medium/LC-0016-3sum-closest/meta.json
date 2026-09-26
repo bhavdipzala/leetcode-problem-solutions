@@ -1,0 +1,17 @@
+{
+  "submissionId": "2153845167",
+  "problemNumber": 16,
+  "title": "3Sum Closest",
+  "titleSlug": "3sum-closest",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "url": "https://leetcode.com/problems/3sum-closest/",
+  "language": "java",
+  "javaFileName": "3sum-closest.java",
+  "firstSyncedAt": "2026-09-26T12:19:54.688Z",
+  "lastSyncedAt": "2026-09-26T12:19:54.688Z"
+}
