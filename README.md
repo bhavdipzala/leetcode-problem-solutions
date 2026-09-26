@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-7-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-8-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short
@@ -16,10 +16,10 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:PROGRESS -->
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 5 | ██████████████░░░░░░ |
-| Medium | 2 | ██████░░░░░░░░░░░░░░ |
+| Easy | 5 | █████████████░░░░░░░ |
+| Medium | 3 | ████████░░░░░░░░░░░░ |
 | Hard | 0 | ░░░░░░░░░░░░░░░░░░░░ |
-| **Total** | **7** | |
+| **Total** | **8** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -39,8 +39,9 @@ accepted and passed LeetCode's own test cases.
 
 |   | LeetCode# | Title | Solution | Topics |
 |--:|----------:|-------|----------|--------|
-| 1 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [View Solution](./solutions/medium/LC-0015-3sum/) | Array, Two Pointers, Sorting |
-| 2 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [View Solution](./solutions/medium/LC-0002-add-two-numbers/) | Linked List, Math, Recursion |
+| 1 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [View Solution](./solutions/medium/LC-0003-longest-substring-without-repeating-characters/) | Hash Table, String, Sliding Window |
+| 2 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [View Solution](./solutions/medium/LC-0015-3sum/) | Array, Two Pointers, Sorting |
+| 3 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [View Solution](./solutions/medium/LC-0002-add-two-numbers/) | Linked List, Math, Recursion |
 
 ### Hard
 
@@ -55,12 +56,13 @@ accepted and passed LeetCode's own test cases.
 |-------|--------:|
 | Array | 5 |
 | Two Pointers | 3 |
+| Hash Table | 2 |
 | Math | 2 |
-| Hash Table | 1 |
+| String | 2 |
 | Linked List | 1 |
 | Recursion | 1 |
+| Sliding Window | 1 |
 | Sorting | 1 |
-| String | 1 |
 | Trie | 1 |
 <!-- AUTO-GENERATED:END:TOPICS -->
 
