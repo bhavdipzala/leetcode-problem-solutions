@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-5-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-6-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short
@@ -16,10 +16,10 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:PROGRESS -->
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 4 | ████████████████░░░░ |
-| Medium | 1 | ████░░░░░░░░░░░░░░░░ |
+| Easy | 5 | █████████████████░░░ |
+| Medium | 1 | ███░░░░░░░░░░░░░░░░░ |
 | Hard | 0 | ░░░░░░░░░░░░░░░░░░░░ |
-| **Total** | **5** | |
+| **Total** | **6** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -29,10 +29,11 @@ accepted and passed LeetCode's own test cases.
 
 |   | LeetCode# | Title | Solution | Topics |
 |--:|----------:|-------|----------|--------|
-| 1 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [View Solution](./solutions/easy/LC-0009-palindrome-number/) | Math |
-| 2 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [View Solution](./solutions/easy/LC-0001-two-sum/) | Array, Hash Table |
-| 3 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [View Solution](./solutions/easy/LC-0027-remove-element/) | Array, Two Pointers |
-| 4 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [View Solution](./solutions/easy/LC-0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers |
+| 1 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [View Solution](./solutions/easy/LC-0014-longest-common-prefix/) | Array, String, Trie |
+| 2 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [View Solution](./solutions/easy/LC-0009-palindrome-number/) | Math |
+| 3 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [View Solution](./solutions/easy/LC-0001-two-sum/) | Array, Hash Table |
+| 4 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [View Solution](./solutions/easy/LC-0027-remove-element/) | Array, Two Pointers |
+| 5 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [View Solution](./solutions/easy/LC-0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers |
 
 ### Medium
 
@@ -51,12 +52,14 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:TOPICS -->
 | Topic | Problems |
 |-------|--------:|
-| Array | 3 |
+| Array | 4 |
 | Math | 2 |
 | Two Pointers | 2 |
 | Hash Table | 1 |
 | Linked List | 1 |
 | Recursion | 1 |
+| String | 1 |
+| Trie | 1 |
 <!-- AUTO-GENERATED:END:TOPICS -->
 
 ## Repository Structure

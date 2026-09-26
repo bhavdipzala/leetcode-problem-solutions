@@ -1,0 +1,17 @@
+{
+  "submissionId": "2153416418",
+  "problemNumber": 14,
+  "title": "Longest Common Prefix",
+  "titleSlug": "longest-common-prefix",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "String",
+    "Trie"
+  ],
+  "url": "https://leetcode.com/problems/longest-common-prefix/",
+  "language": "java",
+  "javaFileName": "longest-common-prefix.java",
+  "firstSyncedAt": "2026-09-26T00:09:11.190Z",
+  "lastSyncedAt": "2026-09-26T00:09:11.190Z"
+}
