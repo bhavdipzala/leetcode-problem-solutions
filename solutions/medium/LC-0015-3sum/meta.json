@@ -1,0 +1,17 @@
+{
+  "submissionId": "2153417297",
+  "problemNumber": 15,
+  "title": "3Sum",
+  "titleSlug": "3sum",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "url": "https://leetcode.com/problems/3sum/",
+  "language": "java",
+  "javaFileName": "3sum.java",
+  "firstSyncedAt": "2026-09-26T00:12:41.371Z",
+  "lastSyncedAt": "2026-09-26T00:12:41.371Z"
+}
