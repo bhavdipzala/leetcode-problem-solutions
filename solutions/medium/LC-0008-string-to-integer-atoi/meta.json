@@ -1,0 +1,15 @@
+{
+  "submissionId": "2153806629",
+  "problemNumber": 8,
+  "title": "String to Integer (atoi)",
+  "titleSlug": "string-to-integer-atoi",
+  "difficulty": "Medium",
+  "topics": [
+    "String"
+  ],
+  "url": "https://leetcode.com/problems/string-to-integer-atoi/",
+  "language": "java",
+  "javaFileName": "string-to-integer-atoi.java",
+  "firstSyncedAt": "2026-09-26T11:19:48.505Z",
+  "lastSyncedAt": "2026-09-26T11:19:48.505Z"
+}
