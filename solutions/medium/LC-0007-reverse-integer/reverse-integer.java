@@ -1,3 +1,9 @@
+/**
+time: O(n)
+space: O(n)
+approach: this is approach
+*/
+
 class Solution {
     public int reverse(int x) {
         int rev = 0;
