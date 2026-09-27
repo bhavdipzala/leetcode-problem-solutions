@@ -1,0 +1,17 @@
+{
+  "submissionId": "2154440864",
+  "problemNumber": 18,
+  "title": "4Sum",
+  "titleSlug": "4sum",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "url": "https://leetcode.com/problems/4sum/",
+  "language": "java",
+  "javaFileName": "4sum.java",
+  "firstSyncedAt": "2026-09-27T01:27:38.177Z",
+  "lastSyncedAt": "2026-09-27T01:27:38.177Z"
+}
