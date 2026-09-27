@@ -1,3 +1,9 @@
+/**
+time: O(n)
+space: O(n)
+approach: this is approach
+*/
+
 import java.util.*;
 
 class Solution {
