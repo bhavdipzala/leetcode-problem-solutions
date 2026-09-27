@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-14-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-15-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short
@@ -16,10 +16,10 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:PROGRESS -->
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 6 | █████████░░░░░░░░░░░ |
+| Easy | 6 | ████████░░░░░░░░░░░░ |
 | Medium | 8 | ███████████░░░░░░░░░ |
-| Hard | 0 | ░░░░░░░░░░░░░░░░░░░░ |
-| **Total** | **14** | |
+| Hard | 1 | █░░░░░░░░░░░░░░░░░░░ |
+| **Total** | **15** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -53,6 +53,7 @@ accepted and passed LeetCode's own test cases.
 
 |   | LeetCode# | Title | Solution | Topics |
 |--:|----------:|-------|----------|--------|
+| 1 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [View Solution](./solutions/hard/LC-0032-longest-valid-parentheses/) | String, Dynamic Programming, Stack, Bracket Sequences |
 <!-- AUTO-GENERATED:END:PROBLEMS -->
 
 ## Topics Breakdown
@@ -62,14 +63,17 @@ accepted and passed LeetCode's own test cases.
 |-------|--------:|
 | Array | 7 |
 | Math | 5 |
+| String | 5 |
 | Two Pointers | 5 |
-| String | 4 |
 | Hash Table | 3 |
 | Sorting | 3 |
 | Bit Manipulation | 1 |
+| Bracket Sequences | 1 |
+| Dynamic Programming | 1 |
 | Linked List | 1 |
 | Recursion | 1 |
 | Sliding Window | 1 |
+| Stack | 1 |
 | Trie | 1 |
 <!-- AUTO-GENERATED:END:TOPICS -->
 

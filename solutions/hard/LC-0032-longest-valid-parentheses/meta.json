@@ -1,0 +1,18 @@
+{
+  "submissionId": "2155373356",
+  "problemNumber": 32,
+  "title": "Longest Valid Parentheses",
+  "titleSlug": "longest-valid-parentheses",
+  "difficulty": "Hard",
+  "topics": [
+    "String",
+    "Dynamic Programming",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "url": "https://leetcode.com/problems/longest-valid-parentheses/",
+  "language": "java",
+  "javaFileName": "longest-valid-parentheses.java",
+  "firstSyncedAt": "2026-09-27T21:14:06.772Z",
+  "lastSyncedAt": "2026-09-27T21:14:06.772Z"
+}
