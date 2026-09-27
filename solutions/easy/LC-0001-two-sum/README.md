@@ -8,10 +8,11 @@
 
 ## Approach
 
+this is approach
+
 ## Complexity
 
 - **Time:** 2
-approah: this is approach
 - **Space:** 23
 
 ## Solution

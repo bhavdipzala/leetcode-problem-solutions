@@ -1,6 +1,6 @@
 /**
 time: 2
-approah: this is approach
+approach: this is approach
 space: 23 */
 
 
