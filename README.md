@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-13-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-14-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short
@@ -16,10 +16,10 @@ accepted and passed LeetCode's own test cases.
 <!-- AUTO-GENERATED:START:PROGRESS -->
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 5 | ████████░░░░░░░░░░░░ |
-| Medium | 8 | ████████████░░░░░░░░ |
+| Easy | 6 | █████████░░░░░░░░░░░ |
+| Medium | 8 | ███████████░░░░░░░░░ |
 | Hard | 0 | ░░░░░░░░░░░░░░░░░░░░ |
-| **Total** | **13** | |
+| **Total** | **14** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -29,11 +29,12 @@ accepted and passed LeetCode's own test cases.
 
 |   | LeetCode# | Title | Solution | Topics |
 |--:|----------:|-------|----------|--------|
-| 1 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [View Solution](./solutions/easy/LC-0014-longest-common-prefix/) | Array, String, Trie |
-| 2 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [View Solution](./solutions/easy/LC-0009-palindrome-number/) | Math |
-| 3 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [View Solution](./solutions/easy/LC-0001-two-sum/) | Array, Hash Table |
-| 4 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [View Solution](./solutions/easy/LC-0027-remove-element/) | Array, Two Pointers |
-| 5 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [View Solution](./solutions/easy/LC-0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers |
+| 1 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [View Solution](./solutions/easy/LC-0013-roman-to-integer/) | Hash Table, Math, String |
+| 2 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [View Solution](./solutions/easy/LC-0014-longest-common-prefix/) | Array, String, Trie |
+| 3 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [View Solution](./solutions/easy/LC-0009-palindrome-number/) | Math |
+| 4 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [View Solution](./solutions/easy/LC-0001-two-sum/) | Array, Hash Table |
+| 5 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [View Solution](./solutions/easy/LC-0027-remove-element/) | Array, Two Pointers |
+| 6 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [View Solution](./solutions/easy/LC-0026-remove-duplicates-from-sorted-array/) | Array, Two Pointers |
 
 ### Medium
 
@@ -60,11 +61,11 @@ accepted and passed LeetCode's own test cases.
 | Topic | Problems |
 |-------|--------:|
 | Array | 7 |
+| Math | 5 |
 | Two Pointers | 5 |
-| Math | 4 |
+| String | 4 |
+| Hash Table | 3 |
 | Sorting | 3 |
-| String | 3 |
-| Hash Table | 2 |
 | Bit Manipulation | 1 |
 | Linked List | 1 |
 | Recursion | 1 |

@@ -1,0 +1,17 @@
+{
+  "submissionId": "2155372484",
+  "problemNumber": 13,
+  "title": "Roman to Integer",
+  "titleSlug": "roman-to-integer",
+  "difficulty": "Easy",
+  "topics": [
+    "Hash Table",
+    "Math",
+    "String"
+  ],
+  "url": "https://leetcode.com/problems/roman-to-integer/",
+  "language": "java",
+  "javaFileName": "roman-to-integer.java",
+  "firstSyncedAt": "2026-09-27T21:11:49.030Z",
+  "lastSyncedAt": "2026-09-27T21:11:49.030Z"
+}
