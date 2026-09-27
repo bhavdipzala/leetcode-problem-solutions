@@ -1,3 +1,9 @@
+/**
+time: O(n)
+space: O(n)
+approach: this is approach
+*/
+
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<>();
