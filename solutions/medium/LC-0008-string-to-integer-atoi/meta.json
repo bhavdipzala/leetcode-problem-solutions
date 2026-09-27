@@ -1,5 +1,5 @@
 {
-  "submissionId": "2153806629",
+  "submissionId": "2155371674",
   "problemNumber": 8,
   "title": "String to Integer (atoi)",
   "titleSlug": "string-to-integer-atoi",
@@ -11,5 +11,5 @@
   "language": "java",
   "javaFileName": "string-to-integer-atoi.java",
   "firstSyncedAt": "2026-09-26T11:19:48.505Z",
-  "lastSyncedAt": "2026-09-26T11:19:48.505Z"
+  "lastSyncedAt": "2026-09-27T21:09:36.012Z"
 }

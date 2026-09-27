@@ -1,3 +1,9 @@
+/**
+time: O(n)
+space: O(n)
+approach: this is approach
+*/
+
 class Solution {
     public int myAtoi(String s) {
         int i = 0;
