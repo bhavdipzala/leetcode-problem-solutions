@@ -8,10 +8,12 @@
 
 ## Approach
 
+this is approach
+
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(n)
+- **Space:** O(n)
 
 ## Solution
 
