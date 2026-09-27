@@ -1,0 +1,16 @@
+{
+  "submissionId": "2155348119",
+  "problemNumber": 29,
+  "title": "Divide Two Integers",
+  "titleSlug": "divide-two-integers",
+  "difficulty": "Medium",
+  "topics": [
+    "Math",
+    "Bit Manipulation"
+  ],
+  "url": "https://leetcode.com/problems/divide-two-integers/",
+  "language": "java",
+  "javaFileName": "divide-two-integers.java",
+  "firstSyncedAt": "2026-09-27T20:17:10.778Z",
+  "lastSyncedAt": "2026-09-27T20:17:10.778Z"
+}
