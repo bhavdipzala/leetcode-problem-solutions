@@ -2,9 +2,9 @@
 
 # LeetCode 9. Palindrome Number
 
-**LeetCode:** https://leetcode.com/problems/palindrome-number/
-**Difficulty:** ![Easy](https://img.shields.io/badge/-Easy-brightgreen)
-**Topics:** Math
+- **LeetCode:** https://leetcode.com/problems/palindrome-number/
+- **Difficulty:** ![Easy](https://img.shields.io/badge/-Easy-brightgreen)
+- **Topics:** Math
 
 ## Approach
 
