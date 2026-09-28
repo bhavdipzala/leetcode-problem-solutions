@@ -3,7 +3,7 @@
 # LeetCode 9. Palindrome Number
 
 - **LeetCode:** https://leetcode.com/problems/palindrome-number/
-- **Difficulty:** ![Easy](https://img.shields.io/badge/-Easy-brightgreen)
+- **Difficulty:** ![Easy]
 - **Topics:** Math
 
 ## Approach
