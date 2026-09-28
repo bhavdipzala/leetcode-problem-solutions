@@ -13,7 +13,7 @@ this is the approah 2
 ## Complexity
 
 - **Time:** O(n)
-- **Space:** O(N)
+- **Space:** O(n)
 
 ## Solution
 
