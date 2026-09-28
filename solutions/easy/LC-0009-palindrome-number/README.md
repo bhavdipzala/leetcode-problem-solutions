@@ -11,12 +11,12 @@
 ### Approach
 this is the approah 2
 
-## Complexity
+### Complexity
 
 - **Time:** O(n)
 - **Space:** O(n)
 
-## Solution
+### Solution
 
 ```java
 /**
