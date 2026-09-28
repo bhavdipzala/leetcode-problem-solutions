@@ -18,6 +18,12 @@ this is the approah 2
 ## Solution
 
 ```java
+/**
+approach: this is ok
+time: testing
+space:
+*/
+
 class Solution {
     public boolean isPalindrome(int x) {
         // Negative numbers are never palindromes
