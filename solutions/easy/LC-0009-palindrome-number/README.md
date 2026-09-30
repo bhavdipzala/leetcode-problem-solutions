@@ -6,9 +6,7 @@
 - **Difficulty:** ![Easy](https://img.shields.io/badge/-Easy-brightgreen)
 - **Topics:** Math
 
-## solution
-
-### Approach
+## Approach
 this is the approah 2
 
 ### Complexity
