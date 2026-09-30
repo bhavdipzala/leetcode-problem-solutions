@@ -6,7 +6,7 @@
 - **Difficulty:** ![Easy](https://img.shields.io/badge/-Easy-brightgreen)
 - **Topics:** Math
 
-## My solution
+## solution
 
 ### Approach
 this is the approah 2
