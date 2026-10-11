@@ -13,13 +13,12 @@ ofcorsejjj
 |:-----|:------:|------:|
 | Text | Text   | 123   |
 
-hh<br>
-tim: 23
+hh
 
 ## Complexity
 
 - **Time:** 2
-- **Space:**
+- **Space:** 23
 
 ## Solution
 
