@@ -1,0 +1,87 @@
+# Regenerates the AUTO-GENERATED sections of the root README (the
+# Progress and Problems tables) whenever solutions/ changes.
+#
+# This acts as a consistency check independent of the local sync
+# service — it reconciles the repo even if a machine was offline, a
+# solution was added/edited by hand, or solutions were synced from more
+# than one machine.
+#
+# Loop safety: this workflow only triggers on changes under solutions/**.
+# Its own commit only ever touches README.md, which is outside that path
+# filter, so it can never re-trigger itself.
+name: Update README
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "solutions/**"
+  workflow_dispatch: {}
+
+concurrency:
+  group: update-readme-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history, not the default shallow clone — makes the
+          # pull --rebase below unconditionally safe.
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Regenerate root README
+        run: node scripts/generate-readme.js
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README.md already up to date, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: regenerate README progress and problem index"
+
+          # The local sync service (or another run of this same workflow,
+          # or a hand push) can advance the remote branch at any moment,
+          # including the couple of minutes this job takes to start and
+          # run -- and again in the narrow window between catching up and
+          # actually pushing. Retry a bounded number of times rather than
+          # failing the whole run on this ordinary, expected multi-writer
+          # race; never force-push, and never guess through a genuine
+          # content conflict.
+          max_attempts=5
+          attempt=1
+          while true; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            if ! git rebase "origin/${GITHUB_REF_NAME}"; then
+              git rebase --abort
+              echo "::error::Automatic rebase onto origin/${GITHUB_REF_NAME} failed -- a genuine content conflict (most likely README.md regenerated differently by two writers at once), not just an ordinary race. Not force-pushing or discarding either side. Resolve by hand: git pull --rebase, fix the conflict, git push -- then re-run this workflow (workflow_dispatch) if needed." >&2
+              exit 1
+            fi
+
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Pushed successfully (attempt ${attempt}/${max_attempts})."
+              break
+            fi
+
+            if [ "${attempt}" -ge "${max_attempts}" ]; then
+              echo "::error::Push to origin/${GITHUB_REF_NAME} still failing after ${max_attempts} attempts (fetch+rebase+push each time). Not retrying further -- re-run this workflow (workflow_dispatch) once the remote settles down." >&2
+              exit 1
+            fi
+            echo "Push rejected -- the remote advanced again between rebasing and pushing (attempt ${attempt}/${max_attempts}). Retrying..."
+            attempt=$((attempt + 1))
+          done

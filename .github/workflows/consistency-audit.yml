@@ -1,0 +1,47 @@
+# Periodically re-checks the repo for the same kinds of drift the local
+# sync service and `regenerate-all.js` already know how to detect (a
+# hand-edit that breaks the naming convention, an F14 problem-number/
+# directory mismatch, a missing or malformed meta.json, a missing .java
+# file, a difficulty mismatch, a stale README entry) -- without waiting
+# to notice one by accident.
+#
+# Deliberately a separate workflow from update-readme.yml, not a step
+# added to it: this one is read-only by construction (see --check in
+# scripts/regenerate-all.js) and runs on its own low-frequency schedule,
+# so it has nothing to do with, and no way to interfere with, that
+# workflow's push-triggered, repo-mutating job.
+#
+# This makes zero commits and zero pushes -- if it finds something, the
+# fix is to run `node scripts/regenerate-all.js` (optionally --commit)
+# yourself, same as any other day. A failing scheduled run already shows
+# as a red X in the Actions tab and GitHub emails on scheduled-workflow
+# failures by default, so that's the only "notification" this needs.
+name: Consistency audit
+
+on:
+  schedule:
+    # Once a week is proportionate for a repo that gets a handful of
+    # submissions a day -- drift (a hand-edit, an offline machine
+    # catching up oddly) is rare and never urgent to catch same-day.
+    # Tighten this (e.g. to daily) if you sync from multiple machines
+    # often enough that you'd rather know sooner.
+    - cron: "0 6 * * 1" # Monday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run consistency check (read-only)
+        run: node scripts/regenerate-all.js --check
