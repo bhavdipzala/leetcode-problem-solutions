@@ -9,6 +9,9 @@
 this is appro and so we have to do the same:<br>
 ofcorsejjj
 
+| Left | Center | Right |
+|:-----|:------:|------:|
+| Text | Text   | 123   |
 hh
 
 ## Complexity

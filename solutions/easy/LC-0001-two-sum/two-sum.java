@@ -3,7 +3,9 @@ time: 2
 approach: this is appro and so we have to do the same:
 ofcorsejjj
 
-
+| Left | Center | Right |
+|:-----|:------:|------:|
+| Text | Text   | 123   |
 hh
 time: 23 */
 
