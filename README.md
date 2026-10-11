@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-0-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-1-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short notes on my approach and time/space complexity for each.<br>
@@ -15,10 +15,10 @@ _Problems solved so far, with a breakdown by difficulty._
 
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 0 |  |
+| Easy | 1 | ████████████████████ |
 | Medium | 0 |  |
 | Hard | 0 |  |
-| **Total** | **0** | |
+| **Total** | **1** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## Problems
@@ -30,6 +30,7 @@ _Problems solved, ordered by date solved within each difficulty, most recent fir
 
 |   | Problem | Solution | Topics |
 |--:|---------|----------|--------|
+| 1 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [View](./solutions/easy/LC-0001-two-sum/) | Array, Hash Table |
 
 ### Medium
 
@@ -47,7 +48,19 @@ _Problems solved, ordered by date solved within each difficulty, most recent fir
 <!-- AUTO-GENERATED:START:TOPICS -->
 _Problems solved per topic. A problem can have multiple topics, so the counts overlap._
 
-_No topics yet — they show up here once you solve your first problem._
+<table><tr><td valign="top">
+
+| Topic | Problems |
+|-------|--------:|
+| Array | 1 |
+
+</td><td valign="top">
+
+| Topic | Problems |
+|-------|--------:|
+| Hash Table | 1 |
+
+</td></tr></table>
 <!-- AUTO-GENERATED:END:TOPICS -->
 
 ## Repository Structure
