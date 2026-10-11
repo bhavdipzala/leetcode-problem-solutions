@@ -8,7 +8,7 @@ ofcorsejjj
 | Text | Text   | 123   |
 
 hh
-time: 23 */
+tim: 23 */
 
 
 class Solution {
