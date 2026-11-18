@@ -1,0 +1,44 @@
+# Re-checks the repository once a week for drift: a directory name that breaks
+# the naming convention, a problem number that disagrees with its directory, a
+# missing or malformed meta.json, a missing .java file, a difficulty mismatch or
+# a stale README. It runs `regenerate-all.js --check`, so it uses the same
+# detection as the maintenance script and there is no second definition of
+# "inconsistent".
+#
+# It is a separate workflow from update-readme.yml on purpose. It is read-only by
+# construction and runs on its own schedule, so it cannot interfere with the
+# push-triggered job that changes the repository.
+#
+# It makes no commits or pushes. If it finds something, fix it by running
+# `node scripts/regenerate-all.js` (optionally with --commit). A failing run shows
+# as a red cross in the Actions tab, and GitHub may also email you, depending on
+# your notification settings. That is the only notification it needs.
+name: Consistency audit
+
+on:
+  schedule:
+    # Once a week is proportionate for a repository that gets a handful of
+    # submissions a day. Drift (a hand edit, an offline machine catching up
+    # oddly) is rare and never urgent to catch the same day. Tighten this, to
+    # daily for example, if you sync from several machines and would rather
+    # know sooner.
+    - cron: "0 6 * * 1" # Monday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Run consistency check (read-only)
+        run: node scripts/regenerate-all.js --check
