@@ -257,8 +257,8 @@ function buildProblemReadme(meta) {
   const complexityLines = [
     '## Complexity',
     '',
-    `- **Time:**${time ? ' ' + time : ''}`,
-    `- **Space:**${space ? ' ' + space : ''}`,
+    `- **Time Complexity:**${time ? ' ' + time : ''}`,
+    `- **Space Complexity:**${space ? ' ' + space : ''}`,
   ];
 
   const codeBlock = buildCodeBlock(code);

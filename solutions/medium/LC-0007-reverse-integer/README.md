@@ -18,8 +18,8 @@ Before performing revNum*10 + lastDig, check if it can cause positive or negativ
 
 ## Complexity
 
-- **Time:** O(log10 |N|), process each digit only once.
-- **Space:** O(1), only a fixed number of variables.
+- **Time Complexity:** O(log10 |N|), process each digit only once.
+- **Space Complexity:** O(1), only a fixed number of variables.
 
 ## Solution
 
