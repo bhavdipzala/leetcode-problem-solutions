@@ -1,7 +1,7 @@
 # LeetCode Problem Solutions
 
 <!-- AUTO-GENERATED:START:BADGES -->
-![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-2-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Language](https://img.shields.io/badge/Language-Java-orange) ![Solved](https://img.shields.io/badge/Solved-3-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 <!-- AUTO-GENERATED:END:BADGES -->
 
 A running collection of my LeetCode problem solutions in Java, with short notes on my approach and time/space complexity for each.<br>
@@ -15,10 +15,10 @@ _Problems solved so far, with a breakdown by difficulty._
 
 | Difficulty | Solved | Share |
 |------------|-------:|-------|
-| Easy | 1 | ██████████ |
-| Medium | 1 | ██████████ |
+| Easy | 2 | █████████████ |
+| Medium | 1 | ███████ |
 | Hard | 0 |  |
-| **Total** | **2** | |
+| **Total** | **3** | |
 <!-- AUTO-GENERATED:END:PROGRESS -->
 
 ## LeetCode Problems
@@ -30,7 +30,8 @@ _Problems solved, ordered by date solved within each difficulty, most recent fir
 
 |   | Problem | Solution | Topics |
 |--:|---------|----------|--------|
-| 1 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [View](./solutions/easy/LC-0009-palindrome-number/) | Math |
+| 1 | [507. Perfect Number](https://leetcode.com/problems/perfect-number/) | [View](./solutions/easy/LC-0507-perfect-number/) | Math |
+| 2 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [View](./solutions/easy/LC-0009-palindrome-number/) | Math |
 
 ### Medium
 
@@ -51,7 +52,7 @@ _Problems solved per topic. A problem can have multiple topics, so the counts ov
 
 | Topic | Problems |
 |-------|--------:|
-| Math | 2 |
+| Math | 3 |
 <!-- AUTO-GENERATED:END:TOPICS -->
 
 ## Repository Structure

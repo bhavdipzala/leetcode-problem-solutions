@@ -1,0 +1,15 @@
+{
+  "submissionId": "2200276597",
+  "problemNumber": 507,
+  "title": "Perfect Number",
+  "titleSlug": "perfect-number",
+  "difficulty": "Easy",
+  "topics": [
+    "Math"
+  ],
+  "url": "https://leetcode.com/problems/perfect-number/",
+  "language": "java",
+  "javaFileName": "perfect-number.java",
+  "firstSyncedAt": "2026-11-21T01:42:30.032Z",
+  "lastSyncedAt": "2026-11-21T01:42:30.032Z"
+}
